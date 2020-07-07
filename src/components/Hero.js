@@ -1,5 +1,5 @@
 import React from 'react';
-import Typewriter from 'components/Typewriter';
+import Typewriter from '../components/Typewriter';
 import Scrollchor from 'react-scrollchor';
 
 class Hero extends React.PureComponent {

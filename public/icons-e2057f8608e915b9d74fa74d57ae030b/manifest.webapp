@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "sayan-chowdhury-website",
+  "description": null,
+  "icons": {
+    "60": "/icons-e2057f8608e915b9d74fa74d57ae030b/firefox_app_60x60.png",
+    "128": "/icons-e2057f8608e915b9d74fa74d57ae030b/firefox_app_128x128.png",
+    "512": "/icons-e2057f8608e915b9d74fa74d57ae030b/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
