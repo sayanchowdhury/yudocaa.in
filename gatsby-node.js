@@ -1,11 +1,21 @@
 const path = require('path')
+//const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const HtmlWebpackRenderPlugin = require('html-webpack-render-plugin');
 
-exports.modifyWebpackConfig = function({ config, env }) {
-  config.merge({
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  actions.setWebpackConfig({
     resolve: {
-      root: path.resolve(__dirname, './src'),
+      roots: [path.resolve(__dirname, './src')],
       extensions: ['', '.js', '.json'],
     },
+    //plugins: [
+      //new HtmlWebpackPlugin({
+        //template: path.resolve(__dirname, 'src', 'index.html'),
+        //filename: 'index.html',
+        //inject: 'body',
+      //}),
+      //new HtmlWebpackRenderPlugin(),
+    //],
   })
-  return config
+  return actions
 }
