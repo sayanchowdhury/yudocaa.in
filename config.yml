@@ -1,4 +1,5 @@
 baseURL: "https://yudocaa.in/"
 title: Sayan Chowdhury
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: terminal
